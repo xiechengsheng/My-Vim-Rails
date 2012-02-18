@@ -11,6 +11,7 @@ MY Vim Rails
  1 先确认自己$HOME下没有.vim文件夹了，有就删了
  2 $cd
  3 $git clone git://github.com/azhao1981/My-Vim-Rails.git  .vim
+ 4 cp .vimrc ~/.vimrc
 老手：
  如果也喜欢，clone一个项目 ，把autoload  bundle目录拷过来就可以了。我用Pathogen来管理，大侠您就随便了
 
