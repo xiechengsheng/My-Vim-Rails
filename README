@@ -1,0 +1,33 @@
+MY Vim Rails
+
+-----------------------
+维护自己的VIM插件及配置文件，以在其它机器上安装的时候更方便，或是与他人分享插件。
+
+插件列表：
+	pathogen.vim		插件管理
+	NERDTree.vim：		目录树和标签
+	Rails.vim：			Rails插件
+	Snipmate.vim：		代码片段自动完成，神器啊
+	FuzzyFinder.vim：模糊查找，超级有用的插件
+	TabBar：					Alt+数字可切换Buffter
+	Supertab.vim：		文本自动完成
+	Rubytest.vim：		vim下的集成测试工具，自己的项目用Guard自动跑，不过要试别人的项目就要用到了
+	autoclose:			输(之类的会帮你补后面
+	vim-surround：		配对符修改
+	Color-Sampler-Pack：	配色方案包，有好多的，装上就够用了
+	ScrollColors		配色方案管理
+
+简单使用方法 ：
+  pathogen:
+  	在.vimrc里加：
+		# 必须在 filetype plugin indent on 之前
+		call pathogen#runtime_append_all_bundles()
+		之后插件只要放到~/.vim/bundle目录下就可以生效
+	NERDTree:
+		使用:NERDTree调出目录树，或是按.vimrc里配置后用F8
+	Rails:
+		这个就说来话长了。。
+	Snipmate：
+		tab把代码片段完成，关键是查看和修改，在snipmate.vim/snippets下，修改成自己喜欢和习惯的快捷键和代码很重要
+	FuzzyFinder：
+		懒人必备，设好快捷键后各种快\\F \\f
