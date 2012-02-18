@@ -1,5 +1,5 @@
 " 启动vim时窗口的大小
-  set lines=30 columns=100
+  set lines=30 columns=120
 
 " 不兼容VI键盘，使用vim键盘
   set nocompatible
@@ -53,7 +53,7 @@ call pathogen#runtime_append_all_bundles()
   set wildmenu
 
 " 设置默认的颜色
-  colorscheme darkblue
+  colorscheme railscasts
 
 " 带有如下符号的单词不要被换行分割
   set iskeyword+=_,$,@,%,#,-
