@@ -12,7 +12,7 @@ git submodule add git://github.com/tpope/vim-abolish.git bundle/vim-abolish
 git submodule add git://github.com/tpope/vim-bundler.git bundle/bundler
 git submodule add git://github.com/tpope/vim-fugitive.git bundle/vim-fugitive
 
-nerdtree vim-rails snipmate.vim FuzzyFinder supertab vim-rubytest autoclose surround color-sampler-pack scrollcolors vim-abolish bundler fugitive
+nerdtree vim-rails snipmate.vim FuzzyFinder supertab vim-rubytest autoclose surround color-sampler-pack scrollcolors vim-abolish bundler vim-fugitive
 
 
 
