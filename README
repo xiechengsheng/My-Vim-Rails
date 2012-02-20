@@ -35,6 +35,7 @@ MY Vim Rails
 	Color-Sampler-Pack：	配色方案包，有好多的，装上就够用了
 	ScrollColors		配色方案管理
 	vim-fugitive：		git插件，自称最好的git插件啦，插件不怎么滴，提供的git视频教程却不错
+	vim-rspec
 
 简单使用方法 ：
   pathogen
